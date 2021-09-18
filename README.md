@@ -9,7 +9,7 @@
 [1分钟生成自己所需固件](#1分钟生成自己所需固件)  
 
 ### 下载地址：
-https://github.com/klever1988/nanopi-openwrt/releases  
+https://github.com/JaxXu/nanopi-openwrt/releases  
 (img.gz档不需要解压，可以直接使用刷机工具刷入)
 
 ### 使用提示：
@@ -19,11 +19,11 @@ https://github.com/klever1988/nanopi-openwrt/releases
 
 ### 终端内在线升级方法：
 ```bash
-wget -qO- https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh
+wget -qO- https://github.com/JaxXu/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh
 ```
 slim版
 ```bash
-wget -qO- https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
+wget -qO- https://github.com/JaxXu/nanopi-openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
 ```
 (脚本由gary lau提供，非常感谢！)
 
@@ -42,10 +42,10 @@ wget -qO- https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoup
 再点击Run即可获取自己所需的固件
 
 ### 更新说明：
-https://github.com/klever1988/nanopi-openwrt/blob/master/CHANGELOG.md
+https://github.com/JaxXu/nanopi-openwrt/blob/master/CHANGELOG.md
 
 #### 本固件NAT基准性能测试：
-<img src="https://raw.githubusercontent.com/klever1988/nanopi-openwrt/master/assets/NAT.jpg" width="450" />
+<img src="https://raw.githubusercontent.com/JaxXu/nanopi-openwrt/master/assets/NAT.jpg" width="450" />
 
 #### 固件源码：
 https://github.com/immortalwrt/immortalwrt
