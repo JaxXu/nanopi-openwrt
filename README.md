@@ -19,11 +19,11 @@ https://github.com/JaxXu/nanopi-openwrt/releases
 
 ### 终端内在线升级方法：
 ```bash
-wget -qO- https://github.com/JaxXu/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh
+wget -qO- https://ghproxy.com/https://github.com/JaxXu/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh
 ```
 slim版
 ```bash
-wget -qO- https://github.com/JaxXu/nanopi-openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
+wget -qO- https://ghproxy.com/https://github.com/JaxXu/nanopi-openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
 ```
 (脚本由gary lau提供，非常感谢！)
 
